@@ -26,7 +26,7 @@ sources:
             tests:
               - not_null
           - name: quantity
-            description: "Remaining quantity"
+            description: "Remaining quantity in the store"
       - name: products
         description: "Table of products"
         columns:
