@@ -27,7 +27,7 @@ models:
       - name: category_id
         tests:
           - relationships:
-              to: ref('stg_local_bike__category')
+              to: ref('stg_local_bike__categories')
               field: category_id
   - name: stg_local_bike__order_items
     columns:
