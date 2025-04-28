@@ -5,7 +5,7 @@ sources:
     schema: local_bike
     tables:
       - name: brands
-        description: "Table of bicycle brands"
+        description: "Table of bicycle brand"
         columns:
           - name: brand_id
             description: "Unique identifier of the brand"
