@@ -7,4 +7,4 @@ select
     list_price,
     discount
 from {{ source("local_bike",'order_items') }}
-where quantity = 0
+where quantity <= 0
